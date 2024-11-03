@@ -1,0 +1,7 @@
+---
+- name: java
+  hosts: all
+  become: yes 
+  tasks: 
+  - name: java
+    script: slave.sh  
